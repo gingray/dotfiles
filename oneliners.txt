@@ -1,0 +1,2 @@
+#kill all process with specific name
+pgrep puma | sudo xargs kill
