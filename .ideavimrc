@@ -10,7 +10,7 @@ nnoremap <Space>rr :action RenameElement<CR>
 nnoremap <Space>ru :action FindUsages<CR>
 nnoremap % :action EditorMatchBrace <CR>
 nnoremap <Space>; :action CommentByLineComment <CR>
-nnoremap <Space>fg :action uk.co.ben_gibson.git.link.UI.Action.Menu.MenuAction.Browser<CR>
+nnoremap <Space>fg :action uk.co.ben_gibson.git.link.UI.Action.MenuAction<CR>
 nnoremap <Space>0 :action ActivateProjectToolWindow<CR>
 nnoremap <Space>ri :action AutoIndentLines<CR>
 nnoremap <Space><Tab> :action VimFilePrevious<CR>
