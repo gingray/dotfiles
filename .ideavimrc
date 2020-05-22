@@ -23,3 +23,5 @@ vmap <c-j> 10j
 nmap <c-j> 10j
 vnoremap < <gv
 vnoremap > >gv
+set visualbell
+set noerrorbells
