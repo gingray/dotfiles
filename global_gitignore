@@ -1,0 +1,4 @@
+.idea/
+app.org
+docker-compose.dev.yml
+.DS_Store
