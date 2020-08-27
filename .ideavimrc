@@ -17,6 +17,7 @@ nnoremap <Space><Tab> :action VimFilePrevious<CR>
 nnoremap <Space>rc :action ReformatCode<CR>
 nnoremap <Space>ma :action ToggleBookmarkWithMnemonic<CR>
 nnoremap <Space>mm :action ShowBookmarks<CR>
+nnoremap <Space>fa :action Annotate<CR>
 vmap <c-k> 10k
 nmap <c-k> 10k
 vmap <c-j> 10j
