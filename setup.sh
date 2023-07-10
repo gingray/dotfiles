@@ -1,8 +1,5 @@
 #!/bin/bash
 
-DOT_FILES=( .ideavimrc)
-
-for file in ${DOT_FILES[@]}
-do
-    ln -s $HOME/dotfiles/$file $HOME/$file
-done
+cp -n .ideavimrc $HOME/.ideavimrc
+cp -n karabiner.json $HOME/.config/karabiner/karabiner.json
+cp -n .global_gitignore $HOME/.global_gitignore

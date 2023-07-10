@@ -1,6 +1,6 @@
 nnoremap / :action Find<CR>
-nnoremap <Space>w/ :action SplitVertically<CR>
-nnoremap <Space>wd :action CloseEditor<CR>
+nnoremap <Space>w/ <C-W>v<CR>
+nnoremap <Space>wd <C-W>c<CR>
 nnoremap <Space>pf :action GotoFile<CR>
 nnoremap <Space>bd :action CloseEditor<CR>
 nnoremap <Space>/ :action FindInPath<CR>
@@ -13,7 +13,7 @@ nnoremap <Space>; :action CommentByLineComment <CR>
 nnoremap <Space>fg :action uk.co.ben_gibson.git.link.UI.Action.MenuAction<CR>
 nnoremap <Space>0 :action ActivateProjectToolWindow<CR>
 nnoremap <Space>ri :action AutoIndentLines<CR>
-nnoremap <Space><Tab> :action VimFilePrevious<CR>
+#nnoremap <Space><Tab> :action VimFilePrevious<CR>
 nnoremap <Space>rc :action ReformatCode<CR>
 nnoremap <Space>ma :action ToggleBookmarkWithMnemonic<CR>
 nnoremap <Space>mm :action ShowBookmarks<CR>
@@ -24,5 +24,3 @@ vmap <c-j> 10j
 nmap <c-j> 10j
 vnoremap < <gv
 vnoremap > >gv
-set visualbell
-set noerrorbells
